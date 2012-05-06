@@ -1,12 +1,28 @@
 {
-    "BundleType": "Application",
-    "AppIcon": {
-        "36x18": "beattrack.png"
+    "BundleType":"Application",
+    "BundleIdentifier":"BeatTrack",
+    "BundleVersion":1,
+    "AcceptedLinkTypes":[
+        "album",
+        "artist",
+        "track",
+        "playlist",
+        "user"
+    ],
+    "RequiredPermissions":[
+        "http://*echonest.com"
+    ],
+    "AppIcon":{
+        "36x18":"beattrack.png"
     },
-    "AppName": {
-        "en": "BeatTrack"
+    "AppName":{
+        "en":"BeatTrack"
     },
-    "SupportedLanguages": [
+    "AppDescription":"description here",
+    "SupportedLanguages":[
         "en"
-    ]
+    ],
+    "BundleCopyright":"All rights reserved",
+    "RequiredInterface":"1",
+    "VendorIdentifier":"com.tilman"
 }
