@@ -4,17 +4,17 @@
     <meta charset="utf-8">
     <title>My First App</title>
     <link rel="stylesheet" href="sp://import/css/adam.css">
+    <link rel="stylesheet" href="sp://import/css/api.css">
     <link rel="stylesheet" href="beattrack.css">
     <script src="jquery-1.7.2.js"></script>
-    <script>
-    	var init=function(){
-	    	sp = getSpotifyApi(1); 
-	    	bt = sp.require('beattrack'); 
-	    	bt.init();
-    	};
-    </script>
+    <script src="underscore.js"></script>
+    <script src="backbone.js"></script>
+    <script src="viewmodel.js"></script>
+    <script src="echonest.js"></script>
+    <script src="beattrack.js"></script>
 </head>
-<body onload="init();">
-<h1 id="header">Hello, world!</h1>
+<body>
+<div id="backbone"></div>
+<button>Save to playlist</button>
 </body>
 </html>

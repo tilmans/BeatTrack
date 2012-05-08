@@ -1,7 +1,20 @@
 {
-    "BundleType":"Application",
-    "BundleIdentifier":"BeatTrack",
-    "BundleVersion":1,
+    "AppDescription": {
+        "en": "Sort tracks by BPM"
+    },
+    "AppIcon": {
+        "36x18": "beattrack.png"
+    },
+    "AppName": {
+        "en": "BeatTrack"
+    },
+    "BundleIdentifier": "beattrack",
+    "BundleType": "Application",
+    "BundleVersion": "0.1",
+    "RequiredInterface": 1,
+    "RequiredPermissions": [
+        "http://*.echonest.com"
+    ],
     "AcceptedLinkTypes":[
         "album",
         "artist",
@@ -9,20 +22,7 @@
         "playlist",
         "user"
     ],
-    "RequiredPermissions":[
-        "http://*echonest.com"
-    ],
-    "AppIcon":{
-        "36x18":"beattrack.png"
-    },
-    "AppName":{
-        "en":"BeatTrack"
-    },
-    "AppDescription":"description here",
-    "SupportedLanguages":[
+    "SupportedLanguages": [
         "en"
-    ],
-    "BundleCopyright":"All rights reserved",
-    "RequiredInterface":"1",
-    "VendorIdentifier":"com.tilman"
+    ]
 }
